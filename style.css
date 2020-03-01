@@ -1,0 +1,117 @@
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ddaa63), to(#da850f)) fixed;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-15%);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+#calc {
+    text-align: center;
+    width: 390px;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1f4663;
+}
+
+#display {
+    height: 50px;
+    background: white;
+    padding: 8px;
+    margin: 16px 12px 10px 16px;
+    text-align: right;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    color: #1f4663;
+    border-radius: 3px;
+}
+
+#buttons {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.row {
+    margin-top: 4px;
+}
+
+.last-row {
+    float: left;
+    margin-top: -11.5%;
+}
+
+button {
+    width: 62px;
+    margin: 2px;
+}
+
+.btn-zero {
+    width: 134px;
+}
+
+.btn-equals {
+    float: right;
+    margin-left: 4px;
+    height: 74px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #75acc0 !important;
+    border-color: #619eb4 !important;
+}
+
+.btn-info:hover, .btn-info:active, .btn-info:visited, .btn-info:focus {
+    color: #fff;
+    background-color: #5d98ad !important;
+    border-color: #5d98ad !important;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #c8782f !important;
+    border-color: #b36c2b !important;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:visited, .btn-danger:focus {
+    color: #fff;
+    background-color: #ac6829 !important;
+    border-color: #ac6829 !important;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #e1b878 !important;
+    border-color: #d4ab69 !important;
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:visited, .btn-warning:focus {
+    color: #fff;
+    background-color: #cea25d !important;
+    border-color: #cea25d !important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5bada0 !important;
+    border-color: #4ca092 !important;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:visited, .btn-success:focus {
+    color: #fff;
+    background-color: #449b8c !important;
+    border-color: #449b8c !important;
+}
